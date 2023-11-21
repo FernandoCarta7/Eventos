@@ -7,11 +7,12 @@ package com.eventos.servicio;
 import com.eventos.dao.PaisDAO;
 import com.eventos.domain.Pais;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 /**
@@ -19,6 +20,7 @@ import org.springframework.stereotype.Service;
  * @author carta
  */
 @Service
+@Repository
 public class PaisServiceImp implements PaisService {
 
     @Autowired

@@ -6,11 +6,13 @@ package com.eventos.dao;
 
 import com.eventos.domain.Programa;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author carta
  */
+@Repository
 public interface ProgramaDAO extends CrudRepository<Programa, Long>{
     
 }

@@ -6,11 +6,13 @@ package com.eventos.dao;
 
 import com.eventos.domain.Facultad;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author carta
  */
+@Repository
 public interface FacultadDAO extends CrudRepository<Facultad, Long>{
     
 }

@@ -6,11 +6,13 @@ package com.eventos.dao;
 
 import com.eventos.domain.TipoContrato;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author carta
  */
+@Repository
 public interface TipoContratacionDAO extends CrudRepository<TipoContrato, Long>{
     
 }

@@ -6,11 +6,13 @@ package com.eventos.dao;
 
 import com.eventos.domain.Asistente;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author carta
  */
+@Repository
 public interface AsistenteDAO extends CrudRepository<Asistente, Long>{
     
 }

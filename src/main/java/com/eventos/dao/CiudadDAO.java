@@ -6,11 +6,13 @@ package com.eventos.dao;
 
 import com.eventos.domain.Ciudad;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author carta
  */
+@Repository
 public interface CiudadDAO extends CrudRepository<Ciudad, Long>{
     
 }

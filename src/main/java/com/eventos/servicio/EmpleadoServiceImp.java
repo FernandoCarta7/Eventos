@@ -7,7 +7,7 @@ package com.eventos.servicio;
 import com.eventos.domain.Empleado;
 import java.util.List;
 import org.springframework.stereotype.Service;
-import org.springframework.stereotype.Service;
+
 
 /**
  *
